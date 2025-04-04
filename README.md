@@ -1,4 +1,10 @@
-The goal of this program is to provide a simple way to organize group appointments, allowing individual users to independently register or cancel 
-their appointments for specific times. A maximum of four people are allowed per appointment, and all information is stored clearly in a CSV file.
+# Group Scheduler (C++)
 
-In the future, an interface and, if necessary, an online function must be implemented.
+A simple command-line based appointment manager written in C++. Users can create appointments, sign up for available slots (max. 4 participants per slot), and withdraw as needed. 
+Data is saved in a local CSV file and automatically loaded on startup.
+
+Plan for Future:
+GUI (Qt or web-based interface)
+Online sync functionality for remote access and team coordination
+
+
